@@ -16,9 +16,9 @@ lerna-debug.log*
 /server/.env
 /client/WDIL
 /server/WDIL
-*.xlsx
 /client/*.xlsx
 /server/*.xlsx
+*.xlsx
 
 dist
 dist-ssr
