@@ -1,0 +1,33 @@
+{
+  "name": "food-booking-app-server",
+  "version": "1.0.0",
+  "description": "Food booking app for your team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Biswadeepc",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "bcrypt": "^5.1.0",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^9.0.0",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.8.0",
+    "pg-cursor": "^2.7.4",
+    "validator": "^13.7.0",
+    "winston": "^3.7.2"
+  }
+}
